@@ -12,23 +12,6 @@ API REST en **Spring Boot** que permite verificar si una cadena es palíndromo, 
 - Uso de DTOs para separar modelo de entrada / salida.  
 - Tests incluidos para validar comportamiento.
 
----
-
-## 📁 Estructura del proyecto
-
-palindromeControllerSpringBoot/
-│
-├── src/
-│ ├── main/
-│ │ ├── java/… ← código fuente de la aplicación
-│ │ └── resources/… ← configuración (application.properties, etc.)
-│ └── test/
-│ └── java/… ← pruebas unitarias
-│
-├── .gitignore
-├── README.md
-└── pom.xml (o build.gradle) ← configuración de construcción / dependencias
-
 ## 🚀 Requisitos
 
 - Java 17+  
