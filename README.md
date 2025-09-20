@@ -5,20 +5,20 @@ API REST en **Spring Boot** que permite verificar si una cadena es palíndromo, 
 
 ---
 
-## 🧩 Características
+## Características
 
 - Verificar si un texto es palíndromo (ignorando mayúsculas, espacios, puntuación, etc.).  
 - Devolver la versión invertida del texto.  
 - Uso de DTOs para separar modelo de entrada / salida.  
 - Tests incluidos para validar comportamiento.
 
-## 🚀 Requisitos
+## Requisitos
 
 - Java 17+  
 - Maven (o Gradle)  
 - Spring Boot  
 
-## ▶️ Ejecución
+## Ejecución
 
 Clona el repositorio:
    ```bash
@@ -33,12 +33,12 @@ mvn spring-boot:run
 
 La aplicación estará disponible en http://localhost:8080.
 
-📦 Endpoints principales
+Endpoints principales
 
 GET	/palindrome/{texto}	Verifica si el texto es palíndromo.
 POST	/palindrome/reverse	Devuelve el texto invertido en JSON.
 
-🤝 Autor
+Autor
 Ana Jotta — Proyecto de práctica con Spring Boot (La Geekipedia De Ernesto)
 
 
